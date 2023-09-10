@@ -1,42 +1,73 @@
 # Food Vision Project
 
-## Project Overview
-The Food Vision project is a computer vision application that aims to automatically recognize and classify various types of foods from images. This project utilizes Convolutional Neural Networks (CNNs) and computer vision techniques to achieve this goal.
+![Food Vision Project Logo]()
 
-## Objectives
-- **Food Classification:** The primary objective is to classify food items into predefined categories. For example, it can distinguish between categories like fruits, vegetables, desserts, fast food, and more.
+Welcome to the Food Vision project! This computer vision application is designed to automatically recognize and classify various types of foods from images using Convolutional Neural Networks (CNNs) and advanced computer vision techniques.
 
-- **Fine-Grained Recognition:** The project may extend to fine-grained recognition, where it identifies specific dishes, such as pizza, sushi, or ice cream.
+## Overview
 
-- **Multi-Label Classification:** In some cases, the system might need to recognize multiple ingredients or components in a single image, allowing for multi-label classification.
+The Food Vision project leverages state-of-the-art deep learning models to classify food items into predefined categories. It can distinguish between a wide range of food categories, making it a versatile tool for various applications.
 
-## Key Components
-1. **Dataset:** The project relies on a large dataset of labeled food images. This dataset is used for training, validation, and testing of the CNN model.
+## Dataset: Food Vision 101
 
-2. **Convolutional Neural Network (CNN):** A deep learning model, often based on CNN architecture, is trained on the dataset to learn features and patterns associated with different food categories.
+- **Dataset Description:** The project is based on the "Food Vision 101" dataset, a comprehensive collection of labeled food images. This dataset covers a diverse range of cuisines, dishes, and food categories, making it suitable for training and evaluating our model's performance.
 
-3. **Preprocessing:** Image preprocessing techniques may include resizing, normalization, and data augmentation to improve model generalization.
+- **Data Split:** We have divided the dataset into training, validation, and test sets to ensure robust model evaluation.
 
-4. **Training and Fine-Tuning:** The CNN model is trained using the labeled dataset, and hyperparameters are tuned for optimal performance. Techniques like transfer learning may also be employed.
+## Achievements
 
-5. **Inference:** After training, the model can make predictions on new, unseen food images. It assigns a class label or labels to each image.
+- **Accuracy:** Food Vision 1.0 achieved an impressive accuracy of 0.75 on the "Food Vision 101" dataset, surpassing the research baseline accuracy of 0.50.
 
-6. **Evaluation:** The performance of the model is assessed using various metrics, such as accuracy, precision, recall, and F1-score, to measure how well it recognizes food items.
+## Key Features
 
-7. **User Interface:** In practical applications, a user-friendly interface can be created to allow users to upload images, and the system provides food classification results.
+- Food Classification: Our model excels at classifying food items into predefined categories.
 
-## Applications
-- **Nutrition Tracking:** Users can track their food intake and monitor nutritional content by taking pictures of their meals.
+- Fine-Grained Recognition: We are exploring the possibility of fine-grained recognition to identify specific dishes within categories.
 
-- **Food Recognition for Dietary Planning:** The system can assist individuals with dietary restrictions or preferences by identifying suitable food options.
+- Multi-Label Classification: The system is designed to handle multi-label classification for recipes with multiple ingredients.
 
-- **Restaurant and Menu Recommendation:** It can be used in restaurant apps to recommend dishes based on user preferences and dietary requirements.
+## Getting Started
 
-- **Food Logging for Health and Fitness:** Users can log their meals for fitness and health purposes, helping them maintain a balanced diet.
+1. Clone this repository to your local machine: `https://github.com/Prem01-cyber/Food_vision.git`
+
+2. Install the required dependencies: `pip install -r requirements.txt`
+
+
+3. Explore the Jupyter notebooks in the `notebooks` directory to understand our model's development and evaluation process.
+
+4. Use the provided scripts for model training, inference, and evaluation.
+
 
 ## Future Enhancements
-The Food Vision project can be enhanced by incorporating additional features such as portion size estimation, recipe suggestion, and allergen detection for a more comprehensive food recognition and assistance system.
 
----
+We have ambitious plans for the Food Vision project's future:
 
-*Note: This is a high-level description of a Food Vision project. The actual implementation details, model architectures, and dataset choices may vary based on the specific goals and requirements of the project.*
+- Portion Size Estimation: Estimating portion sizes from images to provide nutritional information.
+
+- Recipe Suggestions: Recommending recipes based on recognized food items.
+
+- Allergen Detection: Detecting allergens in food images to assist users with dietary restrictions.
+
+## Contributing
+
+We welcome contributions from the community! Please review our [contributing guidelines](CONTRIBUTING.md) to get started.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- We would like to thank the creators of the "Food Vision 101" dataset for their valuable contribution to food image recognition research.
+
+- Special thanks to the open-source community for providing the tools and frameworks that made this project possible.
+
+
+## Environment and Hardware
+
+- **Platform:** Kaggle
+- **GPU:** 2 x NVIDIA Tesla T4
+
+The Food Vision project was developed and trained on the Kaggle platform using two NVIDIA Tesla T4 GPUs for accelerated deep learning. Kaggle provides a powerful environment for data science and machine learning tasks, and the GPU resources greatly enhanced our model training speed and efficiency.
+
+
