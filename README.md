@@ -14,7 +14,7 @@ The Food Vision project leverages state-of-the-art deep learning models to class
 
 ## Achievements
 
-- **Accuracy:** Food Vision 1.0 achieved an impressive accuracy of 0.75 on the "Food Vision 101" dataset, surpassing the research baseline accuracy of 0.50.
+- **Accuracy:** Food Vision 1.0 achieved can reach an impressive accuracy of 0.75 on the "Food Vision 101" dataset, surpassing the research baseline accuracy of 0.50.
 
 ## Key Features
 
