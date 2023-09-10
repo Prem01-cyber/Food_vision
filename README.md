@@ -1,7 +1,5 @@
 # Food Vision Project
 
-![Food Vision Project Logo]()
-
 Welcome to the Food Vision project! This computer vision application is designed to automatically recognize and classify various types of foods from images using Convolutional Neural Networks (CNNs) and advanced computer vision techniques.
 
 ## Overview
@@ -51,10 +49,6 @@ We have ambitious plans for the Food Vision project's future:
 ## Contributing
 
 We welcome contributions from the community! Please review our [contributing guidelines](CONTRIBUTING.md) to get started.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
